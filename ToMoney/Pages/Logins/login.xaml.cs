@@ -12,7 +12,7 @@ public partial class login : ContentPage
 	}
 
     public static int langID=0;
-	private string test;
+	
     public async void dilpaket()
 	{
 
@@ -72,6 +72,6 @@ public partial class login : ContentPage
 
    private async void btn_login_Clicked(System.Object sender, System.EventArgs e)
     {
-		await Navigation.PushAsync(new Pages.MainForms.MainPage());
+		await Navigation.PushAsync(new ToDoList());
     }
 }

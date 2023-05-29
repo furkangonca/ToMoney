@@ -34,6 +34,12 @@
 	  <CreatePackage>false</CreatePackage>
 	</PropertyGroup>
 	<ItemGroup>
+	  <MauiImage Remove="Resources\Images\hamburger.svg" />
+	  <MauiImage Remove="Resources\Images\hamburger.svg" />
+	  <MauiImage Remove="Resources\Images\hamburger.svg" />
+	  <MauiImage Remove="Resources\Images\hamburger.svg" />
+	</ItemGroup>
+	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
 
@@ -53,6 +59,9 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="Syncfusion.Licensing" Version="21.2.6" />
+		<PackageReference Include="Syncfusion.Maui.Calendar" Version="21.2.6" />
+		<PackageReference Include="Syncfusion.Maui.Core" Version="21.2.6" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -60,16 +69,22 @@
 	  <None Remove="Pages\Logins\" />
 	  <None Remove="Resources\Images\sardunyaapp.jpg" />
 	  <None Remove="Resources\Images\back.jpg" />
-	  <None Remove="Pages\MainForms\" />
-	  <None Remove="Resources\Images\hamburger.gif" />
+	  <None Remove="Pages\MasterPage\" />
+	  <None Remove="Pages\DetailsPage\" />
+	  <None Remove="Resources\Images\hamburger.svg" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Pages\" />
 	  <Folder Include="Pages\Logins\" />
-	  <Folder Include="Pages\MainForms\" />
+	  <Folder Include="Pages\MasterPage\" />
+	  <Folder Include="Pages\DetailsPage\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <BundleResource Include="Resources\Images\back.jpg" />
-	  <BundleResource Include="Resources\Images\hamburger.gif" />
+	  <BundleResource Include="Resources\Images\hamburger.svg" />
+	  <BundleResource Include="Resources\Images\hamburger.svg" />
+	  <BundleResource Include="Resources\Images\hamburger.svg" />
+	  <BundleResource Include="Resources\Images\hamburger.svg" />
+	  <BundleResource Include="Resources\Images\hamburger.svg" />
 	</ItemGroup>
 </Project>
