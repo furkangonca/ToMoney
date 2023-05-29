@@ -12,6 +12,7 @@ public partial class login : ContentPage
 	}
 
     public static int langID=0;
+	private string test;
     public async void dilpaket()
 	{
 
